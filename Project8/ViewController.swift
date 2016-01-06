@@ -30,7 +30,7 @@ class ViewController: UIViewController {
                 let btn = subview as! UIButton
                 letterButtons.append(btn)
                 
-                btn.addTarget(self, action: "letterTapped:", forControlEvents: .TouchUpInside) //adding action to the button
+                btn.addTarget(self, action: "letterTapped:", forControlEvents: .TouchUpInside) //adding action to the button, #colons tells us the number of parameters it can take
             }
         }
     }
